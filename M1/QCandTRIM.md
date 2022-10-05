@@ -36,6 +36,10 @@ Correr trimmomatic on `ILLUMINACLIP`
   
 Verificar que las lecturas ya no tienen fragmentos de los adaptadores de Illumina  
 `fastqc SRR8668759.trimmed.TS2.fastq`  
+
+  
+### Ejercicio:  
+_Limpiar y verificar la calidad de todos los datos crudos_
   
 
 
