@@ -1,5 +1,5 @@
 # Cargar datos ----
-setwd("/home/alumno2/rna_avelar/DGE")
+setwd("/home/alumnoX/rna_a/DGE")
 getwd()
 counts <- read.table("GSE135430_RNA_Isolation_Comparison_TPM.txt", header=TRUE, row.names = 1, sep="\t", comment.char="") 
 # Cargar librerias ----
