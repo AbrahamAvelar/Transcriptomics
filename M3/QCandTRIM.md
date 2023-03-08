@@ -13,11 +13,22 @@ Crear directorio de trabajo
 cambiarse al directorio 'transcriptomica'
 `cd transcriptomica`
   
+  
+Descargar datos 
+`wget "https://www.dropbox.com/s/8de6xkvv9gwhfy5/SRR8668755_1M_subsample.fastq.gz"`
+  
+  
+# Visualizar datos crudos  
+  
+Descomprimir archivos
+`gunzip SRR8668755_1M_subsample.fastq.gz`  
+Ver las primeras 20 líneas
+`head SRR8668755_1M_subsample.fastq -n20` 
 
 # Control de calidad y trimming de lecturas crudas    
   
 Basado en:  https://datacarpentry.org/wrangling-genomics/02-quality-control/index.html  
-Datos descargados de: https://diytranscriptomics.com/  
+Datos descargados de: https://diytranscriptomics.com/data  
 
 
 Activar el ambiente de conda con el software instalado  
