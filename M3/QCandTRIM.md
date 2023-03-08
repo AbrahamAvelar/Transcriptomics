@@ -1,3 +1,19 @@
+# Setup  
+  
+En la pestaña _Terminal_ Ubicarse en la carpeta home  
+`cd ~`  
+Para asegurarse que están en el directorio correcto  
+'pwd'  
+debe mostrar como output '/home/alumnoX'  
+  
+Crear directorio de trabajo  
+`mkdir  transcriptomica`  
+  
+cambiarse al directorio 'transcriptomica'
+`cd transcriptomica`
+  
+  
+
 # Control de calidad y trimming de lecturas crudas    
   
 Basado en:  https://datacarpentry.org/wrangling-genomics/02-quality-control/index.html  
