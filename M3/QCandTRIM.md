@@ -4,9 +4,7 @@
 
 En la pestaña _Terminal_ Ubicarse en la carpeta home  
 `cd ~`  
-Para asegurarse que están en el directorio correcto  
-`pwd`  
-debe mostrar como output `/home/alumnoX`  
+Para asegurarse que están en el directorio correcto `pwd` debe mostrar como output `/home/alumnoX`.  
   
   
 Crear directorio de trabajo  
