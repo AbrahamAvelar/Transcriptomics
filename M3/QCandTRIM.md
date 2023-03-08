@@ -1,10 +1,13 @@
 # Setup  
-  
+ 
+### Usar la terminal de bash en RStudio, no la consola de R  
+
 En la pestaña _Terminal_ Ubicarse en la carpeta home  
 `cd ~`  
 Para asegurarse que están en el directorio correcto  
-'pwd'  
-debe mostrar como output '/home/alumnoX'  
+`pwd`  
+debe mostrar como output `/home/alumnoX`  
+  
   
 Crear directorio de trabajo  
 `mkdir  transcriptomica`  
@@ -12,14 +15,11 @@ Crear directorio de trabajo
 cambiarse al directorio 'transcriptomica'
 `cd transcriptomica`
   
-  
 
 # Control de calidad y trimming de lecturas crudas    
   
 Basado en:  https://datacarpentry.org/wrangling-genomics/02-quality-control/index.html  
 Datos descargados de: https://diytranscriptomics.com/  
-
-### Usar la terminal de bash en RStudio, no la consola de R  
 
 
 Activar el ambiente de conda con el software instalado  
