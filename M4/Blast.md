@@ -5,22 +5,22 @@
   Basado en: https://angus.readthedocs.io/en/2019/running-command-line-blast.html
   
 Crear el directorio Myblast y cambiarnos a ese directorio    
-`mkdir Myblast  
-cd Myblast`
+`mkdir Myblast`  
+`cd Myblast`  
     
   Descargar datos de proteínas de ratón  
-`curl -o mouse.1.protein.faa.gz -L https://osf.io/v6j9x/download`
+`curl -o mouse.1.protein.faa.gz -L https://osf.io/v6j9x/download`  
   
       
   Descargar datos de proteínas de pez zebra de https://osf.io/68mgf/download  
-`curl -o zebrafish.1.protein.faa.gz -L`  
+`curl -o zebrafish.1.protein.faa.gz -L   
   
-  descomprimir ambos archivos
+  descomprimir ambos archivos  
 `gunzip *.protein.faa.gz`  
   
    
-   crear base de datos sobre la cual se hará el blast  
-`makeblastdb -in zebrafish.1.protein.faa -dbtype prot`  
+   crear base de datos sobre la cual se hará el blast   
+`makeblastdb -in zebrafish.1.protein.faa -dbtype prot`    
   
 Obtener la primera secuencia de ratón  
 `head -n5 mouse.1.protein.faa > FirstMouseProt.faa`  
