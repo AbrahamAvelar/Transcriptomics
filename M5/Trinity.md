@@ -13,4 +13,7 @@ docker run --rm -v /home/alumnoX/rna_a/RNASeq_Trinity_Tuxedo_Workshop:/home trin
   
 head trinity_out_dir.Trinity.fasta
 
+Para entrar al docker   
+docker run --rm -i -t  -v /home/alumnoX/rna_a/RNASeq_Trinity_Tuxedo_Workshop:/home trinityrnaseq/trinityrnaseq Trinity   /bin/bash
+
 
