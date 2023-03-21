@@ -4,7 +4,7 @@ basado en:  https://github.com/trinityrnaseq/RNASeq_Trinity_Tuxedo_Workshop.git
 `mkdir -p ~/rna_a`  
 `cd ~/rna_a`  
 Clonar los datos de:  
-git clone `https://github.com/trinityrnaseq/RNASeq_Trinity_Tuxedo_Workshop.git`  
+`git clone https://github.com/trinityrnaseq/RNASeq_Trinity_Tuxedo_Workshop.git`  
 y luego ejecutar el docker 
 
 docker run --rm -v /home/alumnoX/rna_a/RNASeq_Trinity_Tuxedo_Workshop:/home trinityrnaseq/trinityrnaseq Trinity   
