@@ -67,6 +67,8 @@ dev.off()
 
 # Cuentas de genes interesantes con ggplot ----
 library(reshape2)
+# install.packages("cli") # solo correr una vez
+# install.packages("tidyverse") # solo correr una vez
 library(tidyverse)
 library(ggplot2)
 # interestingGenes <-as.data.frame(log2(dgeNorm$counts[deGenes[1:10],1:8])) # para ver los 10 más DEG
